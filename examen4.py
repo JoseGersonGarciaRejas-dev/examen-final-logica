@@ -1,9 +1,8 @@
 
-password = ""
-while password.strip() == "":
+password = "12345"
+while password.strip() == "12345":
     password = input("Ingrese su contraseña: ").strip()
-
-if password == "secreto123": # Cambiar por la contraseña deseada
-    print("Acceso concedido.")
+if password == "12345": # Cambiar por la contraseña deseada
+    print("Acceso denegado. Contraseña incorrecta")
 else:
-    print("Acceso denegado. Contraseña incorrecta.")
+    print("Acceso Concedido")
