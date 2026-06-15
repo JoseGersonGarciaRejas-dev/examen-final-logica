@@ -1,8 +1,7 @@
-
-while True:
-    texto = input("Escribe algo (escribe 'fin' para salir): ").strip().lower()
+texto="fin"
+while "fin" in texto
+    texto = input("Escribe algo (escribe 'fin' para continuar): ").strip().lower()
     if texto == "fin":
-        print("Sesión finalizada.")
-        break
-    else:
-        print(f"Texto ingresado: {texto}")
+    print("continuando...)
+          else:
+        print("saliendo")
